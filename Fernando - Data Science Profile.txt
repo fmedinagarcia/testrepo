@@ -1,0 +1,28 @@
+5- Your data science profile. Enter your data science profile into R as a data  frame with two columns. Call it  by  your first name. The categories are computer programming, math, statistics, machine learning, domain expertise, communication and 
+presentation skills, and data visualization.  
+Your ranking for each category 1  5, with 5 as 
+best. Create a bar graph of your data science profile. When you submit your work, please submit your code, including the data entry piece.
+
+> Categories <- c("Computer Programming", "Math", "Statistics", "Machine Learning", "Domain Expertise", "Communication and Presentation Skills", "Data Visualization")
+> Categories
+[1] "Computer Programming"                 
+[2] "Math"                                 
+[3] "Statistics"                           
+[4] "Machine Learning"                     
+[5] "Domain Expertise"                     
+[6] "Communication and Presentation Skills"
+[7] "Data Visualization"                   
+> Ranking <- c(5,4,2,2,4,3,3)
+> Ranking
+[1] 5 4 2 2 4 3 3
+> Fernando <- data.frame(Categories, Ranking)
+> Fernando
+                             Categories Ranking
+1                  Computer Programming       5
+2                                  Math       4
+3                            Statistics       2
+4                      Machine Learning       2
+5                      Domain Expertise       4
+6 Communication and Presentation Skills       3
+7                    Data Visualization       3
+
